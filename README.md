@@ -1,13 +1,1 @@
-SELECT*
-FROM superstore
-ORDER BY price;
-SELECT AVG(price)
-FROM superstore;
-SELECT item_name, price
-FROM superstore
-WHERE category = 'Kitchen Supplies'
-ORDER BY price DESC
-LIMIT 1;
-SELECT COUNT(item_name)
-FROM superstore
-WHERE category ='Electronics'
+ Welcome to my SQL portfolio! This code repository contains examples of SQL I've written during my learning process. Feel free to take a look and reach out if you have any questions.
